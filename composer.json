@@ -13,6 +13,7 @@
         "spatie/ray": "^1.45"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^4.0",
         "fakerphp/faker": "^1.23",
         "laravel-shift/blueprint": "^2.13",
         "laravel/boost": "^2.0",
