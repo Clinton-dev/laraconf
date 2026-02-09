@@ -3,7 +3,6 @@
 namespace App\Filament\Resources\Talks;
 
 use App\Filament\Resources\Talks\Pages\CreateTalk;
-use App\Filament\Resources\Talks\Pages\EditTalk;
 use App\Filament\Resources\Talks\Pages\ListTalks;
 use App\Filament\Resources\Talks\Schemas\TalkForm;
 use App\Filament\Resources\Talks\Tables\TalksTable;
@@ -44,7 +43,7 @@ class TalkResource extends Resource
         return [
             'index' => ListTalks::route('/'),
             'create' => CreateTalk::route('/create'),
-            'edit' => EditTalk::route('/{record}/edit'),
+            //            'edit' => EditTalk::route('/{record}/edit'),
         ];
     }
 }
